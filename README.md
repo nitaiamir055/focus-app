@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Focus App
 
-## Getting Started
+A modern, elegant Pomodoro timer application built with Next.js and TypeScript. This app helps you maintain focus and productivity through structured work and rest cycles.
 
-First, run the development server:
+## Features
 
+- 🎯 **Customizable Focus Sessions**
+  - Adjustable focus duration
+  - Configurable short and long break periods
+  - Set your daily session goals
+
+- 🎨 **Beautiful UI**
+  - Clean, modern interface
+  - Smooth animations and transitions
+  - Dark/Light mode support
+  - Responsive design
+
+- ⏱️ **Smart Timer**
+  - Visual countdown timer
+  - Metronome feature for focus sessions
+  - Audio notifications for session transitions
+  - Session progress tracking
+
+- ⚙️ **User Settings**
+  - Customize session durations
+  - Set daily session goals
+  - Toggle between dark and light themes
+  - Adjust audio preferences
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone [your-repository-url]
+cd focus-app
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to start using the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Starting a Session**
+   - Click the "Start" button to begin your focus session
+   - The timer will count down from your set focus duration
+   - A metronome will help maintain your focus rhythm
 
-## Learn More
+2. **Break Time**
+   - After each focus session, a short break will automatically start
+   - Every 4 sessions, you'll get a longer break
+   - Audio notifications will alert you when sessions change
 
-To learn more about Next.js, take a look at the following resources:
+3. **Customizing Settings**
+   - Click the ⚙️ Settings button to adjust:
+     - Focus duration (default: 25 minutes)
+     - Short break duration (default: 5 minutes)
+     - Long break duration (default: 30 minutes)
+     - Daily session goal
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Theme Switching**
+   - Toggle between dark and light modes using the theme button
+   - Your preference will be maintained across sessions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Geist Font
+- React Hooks
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feel free to submit issues and enhancement requests!
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
