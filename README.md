@@ -31,7 +31,7 @@ A modern, elegant Pomodoro timer application built with Next.js and TypeScript. 
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/nitaiamir055/focus-app
 cd focus-app
 ```
 
